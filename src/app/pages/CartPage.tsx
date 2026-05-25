@@ -13,7 +13,7 @@ export function CartPage() {
   const { items, total, updateQuantity, removeItem } = useCart();
   const [couponCode, setCouponCode] = useState('');
   const [appliedCoupon, setAppliedCoupon] = useState<Coupon | null>(null);
-  const [checkingCoupon, setCheckingCoupon] = useState(false);s
+  const [checkingCoupon, setCheckingCoupon] = useState(false);
 
   const handleApplyCoupon = async () => {
     if (!couponCode.trim()) {
