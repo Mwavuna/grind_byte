@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Mail, Lock, Eye, EyeOff } from 'lucide-react';
 import { MainLayout } from '../layouts/MainLayout';
-import { Input } from '../components/ui/Input';
-import { Button } from '../components/ui/Button';
+import { Input } from '../components/ui/input';
+import { Button } from '../components/ui/button';
 import { useAuth } from '../contexts/AuthContext';
 
 export function LoginPage() {
