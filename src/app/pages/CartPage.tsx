@@ -1,7 +1,7 @@
 import { Minus, Plus, Trash2, ShoppingBag, Tag, Check } from 'lucide-react';
 import { useState } from 'react';
 import { MainLayout } from '../layouts/MainLayout';
-import { Button } from '../components/ui/Button';
+import { Button } from '../components/ui/button';
 import { Input } from '../components/ui/Input';
 import { useCart } from '../contexts/CartContext';
 import { formatPrice } from '../../lib/utils';

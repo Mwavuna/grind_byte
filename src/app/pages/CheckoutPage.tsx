@@ -1,9 +1,9 @@
 import { useState } from 'react';
 import { ArrowLeft, CreditCard, Smartphone, Banknote, Check, Loader2 } from 'lucide-react';
 import { MainLayout } from '../layouts/MainLayout';
-import { Input } from '../components/ui/Input';
-import { Button } from '../components/ui/Button';
-import { Card } from '../components/ui/Card';
+import { Input } from '../components/ui/input';
+import { Button } from '../components/ui/button';
+import { Card } from '../components/ui/card';
 import { useCart } from '../contexts/CartContext';
 import { useAuth } from '../contexts/AuthContext';
 import { formatPrice } from '../../lib/utils';
