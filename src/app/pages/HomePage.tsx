@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { ArrowRight, TrendingUp, Sparkles } from 'lucide-react';
 import { MainLayout } from '../layouts/MainLayout';
 import { ProductCard } from '../components/ProductCard';
-import { Button } from '../components/ui/Button';
+import { Button } from '../components/ui/button';
 import { ProductCardSkeleton } from '../components/ui/Skeleton';
 import type { Product, Category } from '../types';
 import { mockApi } from '../services/mockApi';
