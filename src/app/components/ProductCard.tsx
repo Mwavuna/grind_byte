@@ -3,8 +3,8 @@ import { useState } from 'react';
 import { toast } from 'sonner';
 import type { Product } from '../types';
 import { formatPrice } from '../../lib/utils';
-import { Badge } from './ui/Badge';
-import { Button } from './ui/Button';
+import { Badge } from './ui/badge';
+import { Button } from './ui/button';
 import { useCart } from '../contexts/CartContext';
 
 interface ProductCardProps {

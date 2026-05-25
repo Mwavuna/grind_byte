@@ -3,7 +3,7 @@ import { Search, ShoppingCart, User, Menu, X, Bell, Heart } from 'lucide-react';
 import { useCart } from '../contexts/CartContext';
 import { useAuth } from '../contexts/AuthContext';
 import { useNotifications } from '../contexts/NotificationsContext';
-import { Badge } from '../components/ui/Badge';
+import { Badge } from '../components/ui/badge';
 
 export function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
