@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { Search, SlidersHorizontal } from 'lucide-react';
 import { MainLayout } from '../layouts/MainLayout';
 import { ProductGrid } from '../components/ProductGrid';
-import { Input } from '../components/ui/Input';
+import { Input } from '../components/ui/input';
 import { Button } from '../components/ui/button';
 import type { Product } from '../types';
 import { mockApi } from '../services/mockApi';

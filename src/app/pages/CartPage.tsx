@@ -2,7 +2,7 @@ import { Minus, Plus, Trash2, ShoppingBag, Tag, Check } from 'lucide-react';
 import { useState } from 'react';
 import { MainLayout } from '../layouts/MainLayout';
 import { Button } from '../components/ui/button';
-import { Input } from '../components/ui/Input';
+import { Input } from '../components/ui/input';
 import { useCart } from '../contexts/CartContext';
 import { formatPrice } from '../../lib/utils';
 import { mockApi } from '../services/mockApi';
@@ -13,7 +13,7 @@ export function CartPage() {
   const { items, total, updateQuantity, removeItem } = useCart();
   const [couponCode, setCouponCode] = useState('');
   const [appliedCoupon, setAppliedCoupon] = useState<Coupon | null>(null);
-  const [checkingCoupon, setCheckingCoupon] = useState(false);
+  const [checkingCoupon, setCheckingCoupon] = useState(false);s
 
   const handleApplyCoupon = async () => {
     if (!couponCode.trim()) {
